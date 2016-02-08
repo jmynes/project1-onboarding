@@ -52,6 +52,23 @@ table {
 /* My CSS */
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
 
+body {
+  background-image: url(http://www.planwallpaper.com/static/images/free-vector-dynamic-brilliant-color-background-02-vector_017212_2.jpg);
+  background-size: 100%;
+}
+
+#wrapper {
+  display: block;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 15em;
+  padding: 2em;
+  background-color: #F0F8FF; /* aliceblue */
+  border: 1px solid #1d1d1d;
+}
+
 label {
   display: block;
   margin-top: 1ex;
@@ -65,18 +82,6 @@ label::after {
 #info{
   font-family: 'Droid Sans';
   margin-right: 0.3em;
-}
-
-#wrapper {
-  display: block;
-  margin-top: 5em;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 15em;
-  padding: 2em;
-  background-color: #F0F8FF; /* aliceblue */
-  border: 1px solid #1d1d1d;
 }
 
 input, select, textarea{

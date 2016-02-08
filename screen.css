@@ -82,11 +82,6 @@ label::after {
   font-family: 'Droid Sans';
 }
 
-#container {
-  background-color: #606060;
-  padding: 1em;
-}
-
 #box {
   border-radius: 3em;
   background-color: #ccc;

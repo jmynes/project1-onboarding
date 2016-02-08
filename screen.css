@@ -53,27 +53,8 @@ table {
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
 
 body {
-  background-image: url(img/background.jpg);
-  background-size: 100%;
-}
-
-img { /* Closest common divisor, 80 */
-  margin-left: 41%;
-  margin-top: 4%;
-  height: 8em; /* Original size 1680px */
-  width: 21em; /* Original size 641px */
-}
-
-#wrapper {
-  display: block;
-  margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 15em;
-  padding: 2em;
-  background-color: #F0F8FF; /* aliceblue */
-  border: 1px solid #1d1d1d;
+	background: url('img/background.jpg');
+	background-size: cover;
 }
 
 label {
@@ -87,8 +68,30 @@ label::after {
 }
 
 #info{
-  font-family: 'Droid Sans';
   margin-right: 0.3em;
+}
+
+#wrapper {
+  display: block;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30em;
+  padding: 2em;
+  font-family: 'Droid Sans';
+}
+
+#container {
+  background-color: #606060;
+  padding: 1em;
+}
+
+#box {
+  border-radius: 3em;
+  background-color: #ccc;
+  padding: 3em;
+  border: 0.3em solid #1d1d1d;
 }
 
 input, select, textarea{
@@ -103,4 +106,21 @@ input[type=submit], input[type=reset] {
 
 input[type=submit]:hover, input[type=reset]:hover {
   color: grey;
+}
+
+#banner {
+  max-width: 75%;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 1.1em;
+  padding-top: 2em;
 }

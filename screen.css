@@ -57,16 +57,6 @@ body {
 	background-size: cover;
 }
 
-label {
-  display: block;
-  margin-top: 1ex;
-  color: blue;
-}
-
-label::after {
-  content: ': ';
-}
-
 #info{
   margin-right: 1.3em;
 }
@@ -122,7 +112,6 @@ h3 {
   font-size: 1.2em;
 }
 
-p {
+label {
   font-size: 1.1em;
-  padding-top: 2em;
 }

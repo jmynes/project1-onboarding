@@ -101,7 +101,8 @@ input, select, textarea{
 }
 
 input[type=submit], input[type=reset] {
-  width: 50%;
+  width: 40%;
+  margin-left: 2em;
 }
 
 input[type=submit]:hover, input[type=reset]:hover {

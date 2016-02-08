@@ -68,7 +68,7 @@ label::after {
 }
 
 #info{
-  margin-right: 0.3em;
+  margin-right: 1.3em;
 }
 
 #wrapper {
@@ -98,6 +98,7 @@ input, select, textarea{
   margin: auto;
   margin-top: 1ex;
   width: 100%;
+  padding: 1ex;
 }
 
 input[type=submit], input[type=reset] {

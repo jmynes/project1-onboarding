@@ -109,6 +109,11 @@ input[type=submit]:hover, input[type=reset]:hover {
   max-width: 75%;
 }
 
+h1 {
+  font-size: 3em;
+  margin-bottom: 1ex;
+}
+
 h2 {
   font-size: 2em;
 }

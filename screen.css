@@ -85,9 +85,8 @@ input, select, textarea{
   padding: 1ex;
 }
 
-input[type=submit], input[type=reset] {
+input[type=submit] {
   width: 40%;
-  margin-left: 2em;
 }
 
 input[type=submit]:hover, input[type=reset]:hover {

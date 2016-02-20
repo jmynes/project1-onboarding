@@ -78,21 +78,6 @@ body {
   border: 0.3em solid #1d1d1d;
 }
 
-input, select, textarea{
-  margin: auto;
-  margin-top: 1ex;
-  width: 100%;
-  padding: 1ex;
-}
-
-input[type=submit] {
-  width: 40%;
-}
-
-input[type=submit]:hover {
-  color: grey;
-}
-
 #banner {
   max-width: 75%;
 }
@@ -115,11 +100,26 @@ label {
   font-size: 1.1em;
 }
 
+input, select, textarea{
+  margin: auto;
+  margin-top: 1ex;
+  width: 100%;
+  padding: 1ex;
+}
+
 input,textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 } 
+/*
+input[type=submit] {
+  width: 40%;
+}
+*/
+input[type=submit]:hover {
+  color: grey;
+}
 
 /* Taken from 2-08-2016 lecture */
 .js #submit,

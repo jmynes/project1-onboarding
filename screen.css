@@ -115,20 +115,6 @@ input[type=submit]:hover {
   color: grey;
 }
 
-/* Media queries */
-/*
-@media screen and (min-width: 40em) {
-  
-}
-*/
-
-@media handheld {
-  h1 {
-  font-size: 33em;
-  margin-bottom: 1ex;
-}
-}
-
 /* Taken from 2-08-2016 lecture */
 .js #submit,
 .js #email {
@@ -147,3 +133,43 @@ input[type=submit]:hover {
 .js #email {
   width: 60%  
 }
+
+/* Media queries */
+
+@media screen and (max-width: 30em) {
+  h1 {
+    font-size: 2.2em;
+    margin-bottom: 1ex;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1em;
+    padding-bottom: 2ex;
+  }
+
+  #wrapper {
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 95%;
+    font-family: 'Droid Sans';
+  }
+  .js #submit {
+    display: none;
+    width: 70%
+  }
+  .js #submit.active {
+    display: block;
+  }
+  .js #email {
+    width: 90%  
+  }
+}
+
+/* end media queries */

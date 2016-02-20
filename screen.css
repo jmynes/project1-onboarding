@@ -50,8 +50,6 @@ table {
 /* end CSS Reset */
 
 /* My CSS */
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
-
 body {
 	background: url('img/background.jpg');
 	background-size: cover;
@@ -138,7 +136,6 @@ input[type=submit]:hover {
 .js #submit.active {
   display: inline-block;
 }
-
 
 .js #email {
   width: 60%  

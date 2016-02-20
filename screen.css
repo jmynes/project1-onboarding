@@ -120,3 +120,22 @@ input,textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 } 
+
+.js #submit,
+.js #email {
+  display: inline-block;
+}
+
+.js #submit {
+  display: none;
+  width: 30%
+}
+
+.js #submit.active {
+  display: inline-block;
+}
+
+
+.js #email {
+  width: 60%  
+}

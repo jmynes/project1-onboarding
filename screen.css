@@ -122,6 +122,13 @@ input[type=submit]:hover {
 }
 */
 
+@media handheld {
+  h1 {
+  font-size: 33em;
+  margin-bottom: 1ex;
+}
+}
+
 /* Taken from 2-08-2016 lecture */
 .js #submit,
 .js #email {

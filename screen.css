@@ -121,6 +121,7 @@ input,textarea {
   box-sizing: border-box;
 } 
 
+/* Taken from 2-08-2016 lecture */
 .js #submit,
 .js #email {
   display: inline-block;
